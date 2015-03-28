@@ -1,0 +1,20 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "My solutions to exercises in the learnyounode node.js module",
+  "main": "nothing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^0.9.4",
+    "strftime": "^0.9.0",
+    "through2-map": "^1.4.0"
+  }
+}

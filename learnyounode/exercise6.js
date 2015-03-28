@@ -1,0 +1,9 @@
+var lsfilter = require('./lsfilter.js');
+
+lsfilter(process.argv[2], process.argv[3], function (err, list) {
+    if (err) return console.error(err);
+    
+    list.forEach(function (file, index) {
+        console.log(file);
+    });
+});
